@@ -48,7 +48,6 @@
           document.getElementById(node).appendChild(dust);
     }
       
-      // yes, I'm doing it manually to get the effect I want.. can be easily changed to render randomly
       [[130, 132, 150, 152, .15, 2.5,.1, 'sub'],
           [65, 63, 300, 299, .5, 2, .2, 'sub' ],
           [70, 70, 150, 150, .45, 2, .5],

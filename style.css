@@ -17,7 +17,7 @@
     position: relative;
     width: 100vw;
     height: 100vh;
-    background: radial-gradient(#293c4d, #001920);
+    background: radial-gradient(#2e3f4f, #001920);
     overflow: hidden;
   }
   #castle #table {
@@ -26,9 +26,9 @@
     top: calc(50% - 50px);
     width: 400px;
     height: 400px;
-    background: radial-gradient(#af3dc3, #af3dc3, #801094);
+    background: radial-gradient(#e72727, #dc4852, #e33d53);
     border-radius: 100%;
-    border-bottom: 80px solid #801094;
+    border-bottom: 80px solid #c4151d;
     transform: scaleY(0.225);
   }
   #castle .shade-wrap {
@@ -44,9 +44,9 @@
     top: 100px;
     width: 160px;
     height: 300px;
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    border-left: 1px solid rgba(255, 255, 255, 0.5);
-    border-right: 1px solid rgba(255, 255, 255, 0.6);
+    border-top: 1px solid rgba(255, 255, 255, 0.77);
+    border-left: 1px solid rgba(255, 255, 255, 0.78);
+    border-right: 1px solid rgba(255, 255, 255, 0.79);
     border-top-left-radius: 50% 30%;
     border-top-right-radius: 50% 30%;
     border-bottom: none;
@@ -79,7 +79,7 @@
     height: 40px;
     transform: scaleY(0.5);
     border-radius: 100%;
-    background: radial-gradient(#af3dc3, #df9deb, #9e0ab9);
+    background: radial-gradient(#b95364, #d13348, #c91835);
     animation: floatAnimate 1.75s ease-in-out infinite;
   }
   #castle .shade-wrap #shade-main-reflections {
@@ -141,8 +141,8 @@
     border-top-right-radius: 50% 10%;
     border-bottom-left-radius: 50% 40%;
     border-bottom-right-radius: 50% 40%;
-    background-color: #8919ce;
-    box-shadow: 1px -1px 1px 0 #b81ed3;
+    background-color: #e42841;
+    box-shadow: 1px -1px 1px 0 #bc1010;
     transform: rotate(32deg) scale(1.6, 1.6);
   }
   #castle .shade-wrap #flower-wrap #petal1:before {
@@ -155,7 +155,7 @@
     border-bottom-left-radius: 50% 40%;
     border-bottom-right-radius: 50% 40%;
     background-color: transparent;
-    box-shadow: 0 0 10px 0 #900aa5;
+    box-shadow: 0 0 10px 0 #9c0e19;
     opacity: 0.9;
   }
   #castle .shade-wrap #flower-wrap #petal1:after {
@@ -168,7 +168,7 @@
     border-bottom-left-radius: 50% 40%;
     border-bottom-right-radius: 50% 40%;
     background-color: transparent;
-    box-shadow: 0 0 35px 0 #b617d2;
+    box-shadow: 0 0 35px 0 #e92031;
     animation: glow 3s ease-in-out infinite;
   }
   #castle .shade-wrap #flower-wrap #petal2 {
@@ -181,9 +181,9 @@
     border-top-right-radius: 50% 50%;
     border-bottom-left-radius: 50% 50%;
     border-bottom-right-radius: 50% 10%;
-    background-color: #7306b6;
+    background-color: #e91e1e;
     transform: rotate(35deg) scale(1.2, 1);
-    box-shadow: 1px -1px 1px 0 #a413bd;
+    box-shadow: 1px -1px 1px 0 #9c1515;
     opacity: 0.9;
   }
   #castle .shade-wrap #flower-wrap #petal3 {
@@ -196,9 +196,9 @@
     border-top-right-radius: 10% 10%;
     border-bottom-left-radius: 10% 10%;
     border-bottom-right-radius: 50% 50%;
-    background-color: #820acc;
+    background-color: #d52f2f;
     transform: rotate(25deg) scale(1, 1.05) skew(-8deg);
-    box-shadow: 1px -1px 1px 0 #9f10b8;
+    box-shadow: 1px -1px 1px 0 #931717;
     opacity: 0.9;
   }
   #castle .shade-wrap #flower-wrap #petal4 {
@@ -211,9 +211,9 @@
     border-top-right-radius: 50% 50%;
     border-bottom-left-radius: 50% 50%;
     border-bottom-right-radius: 50% 10%;
-    background-color: #6706a3;
+    background-color: #d02222;
     transform: rotate(30deg) scale(1.1, 0.9) skew(10deg);
-    box-shadow: 1px -1px 1px 0 #ab0fc6;
+    box-shadow: 1px -1px 1px 0 #931717;
     opacity: 0.9;
   }
   #castle .shade-wrap #flower-wrap #petal5 {
@@ -226,9 +226,9 @@
     border-top-right-radius: 10% 10%;
     border-bottom-left-radius: 10% 10%;
     border-bottom-right-radius: 50% 50%;
-    background-color: #641893;
+    background-color: #d42525;
     transform: rotate(28deg) scale(1, 1.05) skew(-18deg);
-    box-shadow: 1px -1px 1px 0 #a011ba;
+    box-shadow: 1px -1px 1px 0 #931717;
     opacity: 0.9;
   }
   #castle .shade-wrap #flower-wrap #falling-petal {
@@ -241,9 +241,9 @@
     border-top-right-radius: 10% 10%;
     border-bottom-left-radius: 10% 10%;
     border-bottom-right-radius: 50% 50%;
-    background-color: #7211ae;
+    background-color: #d42525;
     transform: rotate(32deg) scale(0.9, 0.95) skew(-18deg);
-    box-shadow: 1px -1px 1px 0 #9b0cb4;
+    box-shadow: 1px -1px 1px 0 #931717;
     opacity: 0.9;
     animation: 7s fall 4s ease-in-out infinite;
   }
@@ -276,7 +276,7 @@
   
   .dustDef {
     position: absolute;
-    background-color: white;
+    background-color: rgb(245, 235, 235);
     border-radius: 100%;
     box-shadow: 0 0 3px 1px white;
     opacity: 0;
@@ -295,13 +295,13 @@
   }
   @keyframes glow {
     0% {
-      box-shadow: 0 0 25px 0 #521b74;
+      box-shadow: 0 0 25px 0 #a62525;
     }
     50% {
-      box-shadow: 0 0 45px 0 #881a9c;
+      box-shadow: 0 0 45px 0 #ab1010;
     }
     100% {
-      box-shadow: 0 0 25px 0 #5d2d7b;
+      box-shadow: 0 0 25px 0 #992628;
     }
   }
   @keyframes fall {
